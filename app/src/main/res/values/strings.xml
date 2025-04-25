@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="linearlayout">LinearLayout</string>
+    <string name="framelayout">FrameLayout</string>
+    <string name="constraintlayout">ConstraintLayout</string>
+    <string name="evangelion">Evangelion</string>
+    <string name="Video" />
+    <string name="reproducirvideo">ReproducirVideo</string>
+    <string name="servicio_activity">Servicio Activity</string>
+</resources>

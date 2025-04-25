@@ -1,0 +1,23 @@
+package mx.unam.movil
+
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import mx.unam.movil.databinding.ActivityEvangelionBinding
+
+class evangelion : AppCompatActivity() {
+    private lateinit var binding: ActivityEvangelionBinding
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding=ActivityEvangelionBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeButtonEnabled(true)
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressedDispatcher
+        return super.onSupportNavigateUp()
+    }
+}

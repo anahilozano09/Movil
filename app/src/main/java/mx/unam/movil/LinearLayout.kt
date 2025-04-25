@@ -1,0 +1,25 @@
+package mx.unam.movil
+
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import mx.unam.movil.databinding.ActivityLinearLayoutBinding
+
+class LinearLayout : AppCompatActivity() {
+    private lateinit var binding: ActivityLinearLayoutBinding
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding=ActivityLinearLayoutBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeButtonEnabled(true)
+
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressedDispatcher
+        return super.onSupportNavigateUp()
+    }
+}

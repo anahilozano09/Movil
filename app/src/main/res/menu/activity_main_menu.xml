@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitulo_uno"
+            android:title="@string/material_design">
+            <menu>
+                <item
+                    android:id="@+id/linear_layout"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/linearlayout"/>
+                <item
+                    android:id="@+id/collapsing"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/collapsingtoolbarlayout" />
+                <item
+                    android:id="@+id/nestedscrollview"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/nestedscrollview" />
+                <item
+                    android:id="@+id/framelayout"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/framelayout" />
+                <item
+                    android:id="@+id/constraint_layout"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/constraintlayout"/>
+                <item
+                    android:id="@+id/evangelion"
+                    android:icon="@drawable/evangelion_logo"
+                    android:title="@string/evangelion"/>
+                <item
+                    android:id="@+id/video"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/reproducirvideo"/>
+                <item
+                    android:id="@+id/sonido"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/reproducir_sonido"/>
+                <item
+                    android:id="@+id/ServicioActivity"
+                    android:icon="@drawable/ic_baseline_description_24"
+                    android:title="@string/servicio_activity"/>
+
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
